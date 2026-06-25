@@ -1,0 +1,192 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "anna",
+      "email": "anna@mail.com",
+      "password": "123456",
+      "avatar": "",
+      "firstName": "Анна",
+      "age": 20,
+      "city": "Москва",
+      "gender": "Женский",
+      "phoneNumber": "+79999999999",
+      "hasSubscription": false,
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "username": "max",
+      "email": "max@mail.com",
+      "password": "123456",
+      "avatar": "",
+      "firstName": "Максим",
+      "age": 22,
+      "city": "Санкт-Петербург",
+      "gender": "Мужской",
+      "phoneNumber": "+79999999998",
+      "hasSubscription": true,
+      "isActive": true
+    },
+    {
+      "age": 18,
+      "avatar": "content://com.android.providers.media.documents/document/image%3A1000048721",
+      "city": "Калининград",
+      "email": "oopmie@mail.ru",
+      "firstName": "Милана",
+      "gender": "Женский",
+      "hasSubscription": true,
+      "id": "-Q4az1sF-vg",
+      "isActive": true,
+      "password": "000000",
+      "phoneNumber": "+79097861750",
+      "username": "Oopmie"
+    },
+    {
+      "age": 20,
+      "avatar": "content://com.android.providers.media.documents/document/image%3A1000048721",
+      "city": "питер",
+      "email": "test@mail.ru",
+      "firstName": "testname2",
+      "gender": "мужской",
+      "hasSubscription": true,
+      "id": "TbdRZe5MCew",
+      "isActive": true,
+      "password": "0000",
+      "phoneNumber": "+79099999990",
+      "username": "test2"
+    }
+  ],
+  "activities": [
+    {
+      "id": "1",
+      "title": "Вечер кино",
+      "description": "Смотрим фильмы и обсуждаем",
+      "about": "Неформальная уютная встреча",
+      "organizerId": "1",
+      "organizerName": "Анна",
+      "startDate": "2026-06-30",
+      "startTime": "18:00",
+      "location": "Москва",
+      "maxParticipants": 10,
+      "ageRestriction": 18,
+      "imageUrl": "https://picsum.photos/300/200",
+      "isPro": false
+    },
+    {
+      "id": "2",
+      "title": "Боулинг вечер",
+      "description": "Играем в боулинг",
+      "about": "Веселая встреча для компании",
+      "organizerId": "2",
+      "organizerName": "Максим",
+      "startDate": "2026-07-01",
+      "startTime": "20:00",
+      "location": "Санкт-Петербург",
+      "maxParticipants": 6,
+      "ageRestriction": 18,
+      "imageUrl": "https://picsum.photos/300/201",
+      "isPro": true
+    },
+    {
+      "id": "3",
+      "title": "Прогулка в парке",
+      "description": "Прогулка и кофе",
+      "about": "Легкое общение",
+      "organizerId": "1",
+      "organizerName": "Анна",
+      "startDate": "2026-07-03",
+      "startTime": "16:00",
+      "location": "Москва",
+      "maxParticipants": 8,
+      "ageRestriction": 16,
+      "imageUrl": "https://picsum.photos/300/202",
+      "isPro": false
+    },
+    {
+      "about": "",
+      "ageRestriction": 18,
+      "description": "хорошая компания для игры в настолки",
+      "imageUrl": "content://media/picker_get_content/0/com.android.providers.media.photopicker/media/1000048541",
+      "isPro": false,
+      "location": "кафе квартирник ",
+      "maxParticipants": 8,
+      "organizerId": "-Q4az1sF-vg",
+      "organizerName": "Oopmie",
+      "startDate": "27.06.2026",
+      "startTime": "18:00",
+      "title": "настольные игры",
+      "id": "SwTWFG1jUGA"
+    },
+    {
+      "about": "",
+      "ageRestriction": 18,
+      "description": "компания для прогулок с любимцами в парке",
+      "imageUrl": "content://media/picker_get_content/0/com.android.providers.media.photopicker/media/1000047551",
+      "isPro": false,
+      "location": "центральный парк",
+      "maxParticipants": 5,
+      "organizerId": "TbdRZe5MCew",
+      "organizerName": "test2",
+      "startDate": "26.06.2026",
+      "startTime": "15:00",
+      "title": "прогулка с собаками",
+      "id": "RX1b04YFs14"
+    }
+  ],
+  "participants": [
+    {
+      "id": "1",
+      "activityId": "1",
+      "userId": "2"
+    },
+    {
+      "activityId": "SwTWFG1jUGA",
+      "userId": "-Q4az1sF-vg",
+      "id": "kqwNhXh0ZEc"
+    },
+    {
+      "activityId": "3",
+      "userId": "-Q4az1sF-vg",
+      "id": "NOGfNSlgP9E"
+    },
+    {
+      "activityId": "3",
+      "userId": "TbdRZe5MCew",
+      "id": "J0iYykg6INg"
+    },
+    {
+      "activityId": "1",
+      "userId": "TbdRZe5MCew",
+      "id": "YiVwctDZ6pA"
+    },
+    {
+      "activityId": "RX1b04YFs14",
+      "userId": "TbdRZe5MCew",
+      "id": "iJrUkFEmVjw"
+    }
+  ],
+  "interests": [
+    {
+      "id": "1",
+      "name": "Кино"
+    },
+    {
+      "id": "2",
+      "name": "Боулинг"
+    },
+    {
+      "id": "3",
+      "name": "Прогулки"
+    },
+    {
+      "id": "4",
+      "name": "Рестораны"
+    },
+    {
+      "id": "5",
+      "name": "Настольные игры"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
